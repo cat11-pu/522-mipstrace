@@ -1,0 +1,32 @@
+{
+  "comment": "Injected scene: initial machine state, memory fragment and already-decoded instruction words. Decoded with mips32.DecodeInstruction (inst_coding.go).",
+  "loadAddress": 4194304,
+  "words": [
+    "24020000",
+    "24030000",
+    "80050200",
+    "24630001",
+    "00431021",
+    "a0020100",
+    "1465fffc",
+    "00000000",
+    "ac020104",
+    "8c080204",
+    "01000008",
+    "00000000",
+    "3c04beef",
+    "34841234",
+    "24860001"
+  ],
+  "symbols": {
+    "LOOP": 4194316,
+    "TAIL": 4194352
+  },
+  "registers": {},
+  "memoryBase": 512,
+  "memoryHex": "0600000000400030",
+  "stepLimit": 64,
+  "stopAddress": 4194360,
+  "littleEndian": false,
+  "forceMemAlignment": true
+}
